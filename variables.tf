@@ -131,23 +131,23 @@ variable "vpn_admin_password" {
 
 
 # Twitter
-variable "twitter_consumer_key" {
-  description = "The Twitter Consumer Key."
-}
+# variable "twitter_consumer_key" {
+#   description = "The Twitter Consumer Key."
+# }
 
-variable "twitter_consumer_secret" {
-  description = "The Twitter Consumer Secret."
-}
+# variable "twitter_consumer_secret" {
+#   description = "The Twitter Consumer Secret."
+# }
 
-variable "twitter_access_token" {
-  description = "The Twitter Access Token."
-}
+# variable "twitter_access_token" {
+#   description = "The Twitter Access Token."
+# }
 
-variable "twitter_access_token_secret" {
-  description = "The Twitter Access Token Secret."
-}
+# variable "twitter_access_token_secret" {
+#   description = "The Twitter Access Token Secret."
+# }
 
-variable "twitter_filter_tag" {
-  description = "The Twitter Filter Tags."
-  default     = "#covid19"
-}
+# variable "twitter_filter_tag" {
+#   description = "The Twitter Filter Tags."
+#   default     = "#covid19"
+# }
