@@ -6,7 +6,7 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "saurav-dev"
+    organization = "ashnik_dev"
 
     workspaces {
       name = "aws_confluent_platform"
