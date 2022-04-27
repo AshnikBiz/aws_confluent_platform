@@ -53,12 +53,12 @@ module "instances" {
   database_instance         = var.database_instance
   db_password               = var.db_password
 
-  # Twitter
-  twitter_consumer_key        = var.twitter_consumer_key
-  twitter_consumer_secret     = var.twitter_consumer_secret
-  twitter_access_token        = var.twitter_access_token
-  twitter_access_token_secret = var.twitter_access_token_secret
-  twitter_filter_tag          = var.twitter_filter_tag
+#   # Twitter
+#   twitter_consumer_key        = var.twitter_consumer_key
+#   twitter_consumer_secret     = var.twitter_consumer_secret
+#   twitter_access_token        = var.twitter_access_token
+#   twitter_access_token_secret = var.twitter_access_token_secret
+#   twitter_filter_tag          = var.twitter_filter_tag
 }
 
 
