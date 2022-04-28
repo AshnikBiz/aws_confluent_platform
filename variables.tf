@@ -60,7 +60,7 @@ variable "fixed_pvt_ip" {
 # Instances
 variable "ansible_instance" {
   description = "The Ansible Server Instance."
-  default     = { instance_type : "t2.micro", pvt_ip : "10.0.1.13" }
+  default     = { instance_type : "t2.micro", pvt_ip : "10.0.4.10" }
 }
 
 variable "zookeeper_instances" {
