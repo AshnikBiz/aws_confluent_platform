@@ -21,7 +21,7 @@ variable "prefix" {
 
 variable "owner" {
   description = "This owner name tag will be included in the owner of the resources."
-  default     = "Saurav Mitra"
+  default     = "Bhanu Prakash"
 }
 
 
@@ -34,16 +34,16 @@ variable "vpc_cidr_block" {
 variable "public_subnets" {
   description = "A map of availability zones to CIDR blocks to use for the public subnet."
   default = {
-    us-west-2a = "10.0.0.0/24"
+    ap-south-1a = "10.0.4.0/24"
   }
 }
 
 variable "private_subnets" {
   description = "A map of availability zones to CIDR blocks to use for the private subnet."
   default = {
-    us-west-2a = "10.0.1.0/24"
-    us-west-2b = "10.0.2.0/24"
-    us-west-2c = "10.0.3.0/24"
+    ap-south-1a = "10.0.1.0/24"
+    ap-south-1b = "10.0.2.0/24"
+    ap-south-1c = "10.0.3.0/24"
   }
 }
 
