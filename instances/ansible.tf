@@ -49,11 +49,11 @@ data "template_file" "ansible_init_script" {
     kafka_connect_pub           = aws_instance.kafka_connect[*].public_dns
     ksql_pvt                    = aws_instance.ksql[*].private_dns
     ksql_pub                    = aws_instance.ksql[*].public_dns
-    twitter_consumer_key        = var.twitter_consumer_key
-    twitter_consumer_secret     = var.twitter_consumer_secret
-    twitter_access_token        = var.twitter_access_token
-    twitter_access_token_secret = var.twitter_access_token_secret
-    twitter_filter_tag          = var.twitter_filter_tag
+#     twitter_consumer_key        = var.twitter_consumer_key
+#     twitter_consumer_secret     = var.twitter_consumer_secret
+#     twitter_access_token        = var.twitter_access_token
+#     twitter_access_token_secret = var.twitter_access_token_secret
+#     twitter_filter_tag          = var.twitter_filter_tag
   })
 }
 
