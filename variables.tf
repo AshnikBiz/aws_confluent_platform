@@ -65,42 +65,42 @@ variable "ansible_instance" {
 
 variable "zookeeper_instances" {
   description = "The Zookeeper Instances."
-  default     = { instance_type : "t2.large", volume : 30, count : 3, pvt_ips : ["10.0.1.10", "10.0.1.11", "10.0.1.12"] }
+  default     = { instance_type : "t2.2xlarge", volume : 300, count : 3, pvt_ips : ["10.0.1.10", "10.0.1.11", "10.0.1.12"] }
 }
 
 variable "kafka_broker_instances" {
   description = "The Kafka Broker Instances."
-  default     = { instance_type : "t2.large", volume : 30, count : 3, pvt_ips : ["10.0.1.20", "10.0.1.21", "10.0.1.22"] }
+  default     = { instance_type : "t2.2xlarge", volume : 300, count : 3, pvt_ips : ["10.0.1.20", "10.0.1.21", "10.0.1.22"] }
 }
 
 variable "rest_proxy_instances" {
   description = "The REST Proxy Instances."
-  default     = { instance_type : "t2.small", volume : 30, count : 1, pvt_ips : ["10.0.1.70"] }
+  default     = { instance_type : "t2.large", volume : 300, count : 1, pvt_ips : ["10.0.1.70"] }
 }
 
 variable "control_center_instances" {
   description = "The Control Center Instances."
-  default     = { instance_type : "t2.large", volume : 30, count : 1, pvt_ips : ["10.0.1.50"] }
+  default     = { instance_type : "t2.2xlarge", volume : 300, count : 1, pvt_ips : ["10.0.1.50"] }
 }
 
 variable "schema_registry_instances" {
   description = "The Schema Registry Instances."
-  default     = { instance_type : "t2.large", volume : 30, count : 1, pvt_ips : ["10.0.1.30"] }
+  default     = { instance_type : "t2.2xlarge", volume : 300, count : 1, pvt_ips : ["10.0.1.30"] }
 }
 
 variable "kafka_connect_instances" {
   description = "The Kafka Connect Instances."
-  default     = { instance_type : "t2.large", volume : 30, count : 1, pvt_ips : ["10.0.1.40"] }
+  default     = { instance_type : "t2.2xlarge", volume : 300, count : 1, pvt_ips : ["10.0.1.40"] }
 }
 
 variable "ksql_instances" {
   description = "The KSQL Instances."
-  default     = { instance_type : "t2.large", volume : 30, count : 1, pvt_ips : ["10.0.1.60"] }
+  default     = { instance_type : "t2.2xlarge", volume : 300, count : 1, pvt_ips : ["10.0.1.60"] }
 }
 
 variable "database_instance" {
   description = "The Database Server Instance."
-  default     = { instance_type : "t2.xlarge", pvt_ip : "10.0.1.100" }
+  default     = { instance_type : "t2.2xlarge", volume : 100, pvt_ip : "10.0.1.100" }
 }
 
 variable "db_password" {
