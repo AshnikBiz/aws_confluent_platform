@@ -112,7 +112,7 @@ variable "db_password" {
 # OpenVPN Access Server
 variable "openvpn_server_ami_name" {
   description = "The OpenVPN Access Server AMI Name."
-  default     = "OpenVPN Access Server Community Image-fe8020db-5343-4c43-9e65-5ed4a825c931-ami-06585f7cf2fb8855c.4"
+  default     = "OpenVPN Access Server QA Image-fe8020db-5343-4c43-9e65-5ed4a825c931"
 }
 
 variable "openvpn_server_instance_type" {
